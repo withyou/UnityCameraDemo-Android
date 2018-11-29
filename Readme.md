@@ -13,4 +13,6 @@ cd to `AndroidPlugin` folder and run:
 ```
 ./gradlew buildAARForUnity
 ```
-
+## Unity Player Settings insues
+Disable Auto Graphics API and make sure only use OpenGLES2;(when accure GLError 1282)
+Check if you have multithreaded rendering enabled. Disable it if so. 
